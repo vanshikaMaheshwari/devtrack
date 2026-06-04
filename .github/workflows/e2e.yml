@@ -48,6 +48,7 @@ jobs:
           NEXT_PUBLIC_SUPABASE_ANON_KEY=placeholder-anon-key
           SUPABASE_SERVICE_ROLE_KEY=placeholder-service-role-key
           PLAYWRIGHT_SERVER_MODE=start
+          GITHUB_WEBHOOK_SECRET=ci-placeholder-webhook-secret
           EOF
           npm run build
 
