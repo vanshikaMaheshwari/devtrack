@@ -235,6 +235,8 @@ describe("User Settings API Endpoints", () => {
         id: "user-uuid-123",
         github_login: "test-user",
         is_public: true,
+        public_since: null,
+        show_weekly_goals: false,
         leaderboard_opt_in: true,
         weekly_digest_opt_in: false,
         pinned_repos: ["repo-1"],
